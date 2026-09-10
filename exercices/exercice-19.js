@@ -14,4 +14,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function alarme(message, secondes){
+    setTimeout(function(){
+        console.log(`${message} (Apparu après ${secondes} secondes !)`);   
+    }, secondes );  
+}
+alarme("C'est l'heure", 3);
