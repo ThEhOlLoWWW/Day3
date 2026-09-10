@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const cache = {};
+
+function calculLong(nombre){
+    if ( nombre in cache){
+        return cache[nombre]
+    } else {
+        return cache[nombre] = nombre * 500; // 500 est un exemple.
+    }
+}
+console.log(calculLong(5));
+console.log(calculLong(5));
