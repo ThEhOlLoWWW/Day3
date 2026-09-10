@@ -9,4 +9,10 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+function f() {
+    let a = 5;
+}
+console.log(a);
+
+// une erreur (ReferenceError: a is not defined) donnée
+
