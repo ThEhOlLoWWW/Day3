@@ -19,7 +19,7 @@
 
 > Quelle est la différence entre un *paramètre* et un *argument* d'une fonction ?
 
-- [] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 

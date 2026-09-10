@@ -9,4 +9,9 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let carre = (a) => {
+    return a*a;
+}
+
+console.log(carre(2));
+
