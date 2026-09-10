@@ -19,11 +19,12 @@
 
 > Quelle est la différence entre un *paramètre* et un *argument* d'une fonction ?
 
-- [ ] J'ai recherché et compris la notion.
+- [] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+Les paramètres sont les variables temporaires définies lors de l'écriture de la fonction.
+Les arguments sont les valeurs donnee.
 
 ---
 
@@ -31,11 +32,11 @@
 
 > Quelle est la différence entre l'instruction `return` et `console.log()` dans une fonction ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+return donner le veleur au developeur pour travaille avec, mais console.log() afficher la valeur dans le terminal.
 
 ---
 
@@ -43,23 +44,22 @@
 
 > Que se passe-t-il si l'on oublie le mot-clé `return` dans une fonction censée renvoyer une valeur ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
-
+les resultats sont oubliee.
 ---
 
 ### Question 04
 
 > Qu'est-ce que la **portée (scope)** des variables en JavaScript ? Une variable définie dans une fonction avec `let` est-elle accessible à l'extérieur ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+les scope est la zone de visibilite des variables. les variabes declerre a lexterieur des scope est n'est pas accessible, meme pur les fonctions car les fonction sont des scopes.
 
 ---
 
@@ -67,11 +67,11 @@
 
 > Quelle est la syntaxe d'une **fonction fléchée** (arrow function) par rapport à une fonction classique ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> () => {}, la diffrense cest le syntaxe 
 
 ---
 
@@ -79,11 +79,11 @@
 
 > Dans quel cas peut-on omettre les accolades `{}` et le mot-clé `return` dans une fonction fléchée ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+Dans les one-line functions.
 
 ---
 
@@ -91,23 +91,22 @@
 
 > Qu'est-ce que le *Hoisting* (hissage) en JavaScript, et comment s'applique-t-il aux fonctions classiques `function nom()` versus les variables `const maFunc = () => {}` ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
-
+En pratique, cela détermine si vous avez le droit d'appeler une fonction ou d'utiliser une variable avant la ligne où elle est réellement écrite dans le fichier
 ---
 
 ### Question 08
 
 > Qu'est-ce qu'une fonction **Callback** ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+callback est une fonction transmise à une autre fonction sous forme d'argument, qui est ensuite exécutée à l'intérieur de cette fonction externe
 
 ---
 
@@ -115,11 +114,11 @@
 
 > Peut-on donner une valeur par défaut à un paramètre (ex: `function saluer(nom = "Invité")`) ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+Oui.
 
 ---
 
@@ -131,7 +130,8 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+récursivité cest lorsqu'un foction s'appelle elle-meme.
+
 
 
 ## ✅ Validation de la recherche
