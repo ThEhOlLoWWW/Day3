@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function executerOperation(a,b, operateur,){
+    if ( operateur === "addition"){
+        return a + b 
+    } else if ( operateur === "soustraction"){
+        return a - b
+    } else if ( operateur === "multiplication"){
+        return a * b
+    } else if ( operateur === "division"){
+        return a / b
+    } else {
+        return "ivalide"
+    }
+}
+console.log(executerOperation(2, 3, "addition"));
+
