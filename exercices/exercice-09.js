@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function trouverMax(a,b,c) {
+    if ( a > b && a > c){
+        return "Le plus grand c'est Le nombre " + a;
+    } else if ( b > a && b > c) {
+        return "Le plus grand c'est Le nombre " + b;
+    } else {
+        return "Le plus grand c'est Le nombre " + c;
+    }
+}
+console.log(trouverMax(1,2,3));
+
